@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles css -->
+    <link rel="stylesheet" href="/styles/css-reset.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script src="/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="grid color-selector">
+        <input
+          type="color"
+          name="seedcolor"
+          id="seed-color"
+          value="#F55A5A"
+          aria-label="Colorpicker"
+        />
+        <select
+          name="mode"
+          id="mode-option"
+          aria-label="Select"
+          class="mode-options"
+        >
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome Dark</option>
+          <option value="monochrome-light">Monochrome Light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button class="btn" id="color-button" aria-label="button">
+          Get color scheme
+        </button>
+      </section>
+
+      <ul class="color-bars flex">
+        <li class="color-bar" id="color0"></li>
+        <li class="color-bar" id="color1"></li>
+        <li class="color-bar" id="color2"></li>
+        <li class="color-bar" id="color3"></li>
+        <li class="color-bar" id="color4"></li>
+      </ul>
+
+      <ul class="color-hex-all flex">
+        <li class="color-hex" id="hex0">#F55A5A</li>
+        <li class="color-hex" id="hex1">#2B283A</li>
+        <li class="color-hex" id="hex2">#FBF3AB</li>
+        <li class="color-hex" id="hex3">#AAD1B6</li>
+        <li class="color-hex" id="hex4">#A626D3</li>
+      </ul>
+    </main>
+  </body>
+</html>
