@@ -1,12 +1,37 @@
-# color-picker
-## Solo Project - Color Scheme Generator
----
-Solo Project for [Scrimba's 'The Frontend Developer Career Path', Module &: Working with API's.](https://scrimba.com/)
+# Scrimba - Solo Project - Color Scheme Generator
 
-Being given a Figma-design and the API to be used for this challenge, this was one to be finished without any guidance.
+This is a solution to the [Scrimba's 'The Frontend Developer Career Path', Module &: Working with API's.](https://scrimba.com/).
 
-API used: [The Color Api](https://www.thecolorapi.com/)
+## Table of contents
 
-Endpoint to be used: [Endpoint](https://www.thecolorapi.com/docs#schemes-generate-scheme-get)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-The endpoint was to be created in de js-file.
+## Overview
+
+### The challenge
+
+Based on a given Figma-design, recreate the design and implement the Color Api. Without any guidance.
+
+### Screenshot
+
+![](screenshot.jpg)
+
+### Links
+
+- Solution URL: [Color Picker on Github](https://github.com/graficdoctor/color-picker)
+- Live Site URL: [Color Picker on Github Pages](https://graficdoctor.github.io/color-picker/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
