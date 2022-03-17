@@ -24,7 +24,7 @@ Based on a given Figma-design, recreate the design and implement the Color Api. 
 ### Links
 
 - Solution URL: [Color Picker on Github](https://github.com/graficdoctor/color-picker)
-- Live Site URL: [Color Picker on Github Pages](https://graficdoctor.github.io/color-picker/)
+- Live Site URL: [Color Picker Vercel](https://color-picker-ivory.vercel.app/)
 
 ## My process
 
